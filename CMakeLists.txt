@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.15)
 project(game)
-#set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
+set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "${CMAKE_SOURCE_DIR}/cmake/")
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 set(CMAKE_CXX_STANDARD 17)
 
@@ -30,47 +30,34 @@ add_custom_command(
     DEPENDS ${destination}
     COMMENT "symbolic link resources folder from ${source} => ${destination}")
 
-
 if (${CMAKE_SYSTEM_NAME} STREQUAL "Emscripten")
-    # TODO(amitp): I don't know how to set this properly with add_compile_options
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -s USE_SDL=2")
-    # adding resources
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} --preload-file resources")
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -I${EMSCRIPTEN_INCLUDE_DIRS}")
-
-    # adding image types
-    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -s SDL2_IMAGE_FORMATS='[png, bmp]'")
-
-    set(SDL2_LIBRARIES "-s USE_SDL=2")
-    set(SDL2_IMAGE_LIBRARIES "-s USE_SDL_IMAGE=2")
     set(CMAKE_EXECUTABLE_SUFFIX ".html")
+    target_link_libraries(${PROJECT_NAME} "-s WASM=1") #web assembly FTW
+    #target_link_libraries(${PROJECT_NAME} "-s USE_SDL=2 --use-preload-plugins")
+    target_link_libraries(${PROJECT_NAME} "-s USE_SDL=2")
+    target_link_libraries(${PROJECT_NAME} "-s USE_SDL_IMAGE=2")
+    target_link_libraries(${PROJECT_NAME} "-s SDL2_IMAGE_FORMATS='[png]'")
+    target_link_libraries(${PROJECT_NAME} "--preload-file resources")
+    target_link_libraries(${PROJECT_NAME} "-o gameSdl2.html")
+    target_link_libraries(${PROJECT_NAME} "-s DEMANGLE_SUPPORT=1")
+    target_compile_options(${PROJECT_NAME} PUBLIC "-O2") #creates the runtime resources
+    target_link_libraries(${PROJECT_NAME} "-O2") #creates the runtime resources
 else ()
-    include(FindPkgConfig)
-    pkg_search_module(SDL2 REQUIRED sdl2)
-    pkg_search_module(SDL2IMAGE REQUIRED SDL2_image>=2.0.0)
+    find_package(SDL2 REQUIRED)
+    find_package(SDL2_image REQUIRED)
+
+    target_include_directories(${PROJECT_NAME} PUBLIC
+        ${EMSCRIPTEN_INCLUDE_DIRS}
+        ${SDL2_INCLUDE_DIRS}
+        ${SDL2_IMAGE_INCLUDE_DIRS})
+
+    target_include_directories(${PROJECT_NAME} PUBLIC
+        $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+        $<INSTALL_INTERFACE:include>
+        PRIVATE src)
+
+    set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")
+    target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES} ${SDL2_IMAGE_LIBRARIES})
+
 endif ()
 
-#set(SDL2_LIBRARIES "-s USE_SDL=2")
-
-#include(${EMSCRIPTEN_INCLUDE_CMAKE})
-#include_directories(${EMSCRIPTEN_INCLUDE_DIRS})
-
-#target_include_directories(${PROJECT_NAME} PUBLIC
-#${EMSCRIPTEN_INCLUDE_DIRS})
-#target_include_directories(${PROJECT_NAME} PUBLIC
-#${SDL2_INCLUDE_DIRS})
-#file (GLOB_RECURSE RESOURCES "resources/*.*")
-target_include_directories(${PROJECT_NAME} PUBLIC
-    ${EMSCRIPTEN_INCLUDE_DIRS})
-target_include_directories(${PROJECT_NAME} PUBLIC
-    ${SDL2_INCLUDE_DIRS})
-
-#target_include_directories(${PROJECT_NAME}
-#$<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
-#$<INSTALL_INTERFACE:include>
-#PRIVATE src)
-
-#set_property(TARGET ${PROJECT_NAME} PROPERTY CXX_STANDARD 11)
-set(CMAKE_CXX17_COMPILE_FEATURES "cxx_std_17")
-
-target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})

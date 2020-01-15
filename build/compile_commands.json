@@ -1,12 +1,12 @@
 [
 {
   "directory": "/home/vushu/coding/cpp/emscripten/blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2    -std=gnu++1z -o CMakeFiles/game.dir/src/game.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/game.cpp",
+  "command": "/home/vushu/coding/repos/emsdk/upstream/emscripten/em++      -O2 -std=gnu++17 -o CMakeFiles/game.dir/src/game.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/game.cpp",
   "file": "/home/vushu/coding/cpp/emscripten/blob/src/game.cpp"
 },
 {
   "directory": "/home/vushu/coding/cpp/emscripten/blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2    -std=gnu++1z -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/main.cpp",
+  "command": "/home/vushu/coding/repos/emsdk/upstream/emscripten/em++      -O2 -std=gnu++17 -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/main.cpp",
   "file": "/home/vushu/coding/cpp/emscripten/blob/src/main.cpp"
 }
 ]

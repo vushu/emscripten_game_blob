@@ -1,1 +1,1 @@
-/usr/bin/c++     CMakeFiles/game.dir/src/game.cpp.o CMakeFiles/game.dir/src/main.cpp.o  -o game  -lSDL2 
+/home/vushu/coding/repos/emsdk/upstream/emscripten/em++     @CMakeFiles/game.dir/objects1.rsp  -o game.html @CMakeFiles/game.dir/linklibs.rsp
