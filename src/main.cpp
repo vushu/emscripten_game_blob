@@ -1,5 +1,7 @@
 #include "game.hpp"
 #include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+
 #include <iostream>
 #include <memory>
 #ifdef __EMSCRIPTEN__
@@ -7,7 +9,7 @@
 #endif
 
 static bool quit = false;
-static std::unique_ptr<game::World> world;
+static std::unique_ptr<Game::World> world;
 
 void main_loop()
 {
@@ -23,15 +25,15 @@ void main_loop()
                 SDL_Log("END");
             }
         }
-        game::update(world);
+        Game::update(world);
     }
 }
 
 int main()
 {
 
-    world = game::create_world();
-    game::init_world(world);
+    world = Game::create_world();
+    Game::init_world(world);
     //std::cout << "GAME STARTET!" << std::endl;
     //emscripten_log(a, "hej");
 
@@ -47,7 +49,9 @@ int main()
 
     SDL_FreeSurface(world->screen_surface);
     SDL_DestroyWindow(world->window);
+    IMG_Quit();
     SDL_Quit();
+
 
     return 0;
 }

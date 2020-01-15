@@ -8,5 +8,10 @@
   "directory": "/home/vushu/coding/cpp/emscripten/blob/build",
   "command": "/home/vushu/coding/repos/emsdk/upstream/emscripten/em++      -O2 -std=gnu++17 -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/main.cpp",
   "file": "/home/vushu/coding/cpp/emscripten/blob/src/main.cpp"
+},
+{
+  "directory": "/home/vushu/coding/cpp/emscripten/blob/build",
+  "command": "/home/vushu/coding/repos/emsdk/upstream/emscripten/em++      -O2 -std=gnu++17 -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/blob/src/utils.cpp"
 }
 ]

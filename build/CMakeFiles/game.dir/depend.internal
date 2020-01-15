@@ -7,3 +7,7 @@ CMakeFiles/game.dir/src/game.cpp.o
 CMakeFiles/game.dir/src/main.cpp.o
  /home/vushu/coding/cpp/emscripten/blob/src/game.hpp
  /home/vushu/coding/cpp/emscripten/blob/src/main.cpp
+CMakeFiles/game.dir/src/utils.cpp.o
+ /home/vushu/coding/cpp/emscripten/blob/src/game.hpp
+ /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp
+ /home/vushu/coding/cpp/emscripten/blob/src/utils.hpp

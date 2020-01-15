@@ -7,3 +7,7 @@ CMakeFiles/game.dir/src/game.cpp.o: ../src/game.hpp
 CMakeFiles/game.dir/src/main.cpp.o: ../src/game.hpp
 CMakeFiles/game.dir/src/main.cpp.o: ../src/main.cpp
 
+CMakeFiles/game.dir/src/utils.cpp.o: ../src/game.hpp
+CMakeFiles/game.dir/src/utils.cpp.o: ../src/utils.cpp
+CMakeFiles/game.dir/src/utils.cpp.o: ../src/utils.hpp
+

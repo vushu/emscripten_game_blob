@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vushu/coding/cpp/emscripten/blob/src/game.cpp" "/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles/game.dir/src/game.cpp.o"
   "/home/vushu/coding/cpp/emscripten/blob/src/main.cpp" "/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles/game.dir/src/main.cpp.o"
+  "/home/vushu/coding/cpp/emscripten/blob/src/utils.cpp" "/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles/game.dir/src/utils.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 
