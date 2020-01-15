@@ -1,13 +1,11 @@
 #include "game.hpp"
+#include "utils.hpp"
 
 #include <SDL2/SDL.h>
-#include <SDL2/SDL_render.h>
 #include <SDL2/SDL_log.h>
-//#include <SDL2/SDL_stdinc.h>
+#include <SDL2/SDL_render.h>
 #include <SDL2/SDL_surface.h>
-//#ifndef __EMSCRIPTEN__
 #include <SDL2/SDL_image.h>
-//#endif
 
 #include <SDL2/SDL_video.h>
 #include <iostream>
@@ -66,7 +64,8 @@ void Game::init_world(std::unique_ptr<World>& game)
                 exit(1);
             } else {
                 std::cout << "SUCCESS INIT IMG_Load!" << std::endl;
-                //game->screen_surface = SDL_GetWindowSurface(game->window);
+                // SHOW TU <3
+                game->texture = Utils::load_texture(game->renderer, "resources/TU.png");
             }
         }
     }
@@ -79,6 +78,19 @@ void Game::update(std::unique_ptr<World>& game)
     strech_rect.y = 0;
     strech_rect.w = SCREEN_WIDTH;
     strech_rect.h = SCREEN_HEIGHT;
-    SDL_BlitSurface(game->streched_image, nullptr, game->screen_surface, &strech_rect);
-    SDL_UpdateWindowSurface(game->window);
+
+    //SDL_BlitSurface(game->streched_image, nullptr, game->screen_surface, &strech_rect);
+    //
+    //SDL_UpdateWindowSurface(game->window);
+    //
+    // not using above since we are using renderer
+
+    // CLEAR SCREEN
+    SDL_RenderClear(game->renderer);
+
+    // ADDING TEXTURE
+    SDL_RenderCopy(game->renderer, game->texture, nullptr, &strech_rect);
+
+    //UPDATE SCREEN
+    SDL_RenderPresent(game->renderer);
 }

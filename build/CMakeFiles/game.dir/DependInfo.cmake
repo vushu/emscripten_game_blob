@@ -8,10 +8,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vushu/coding/cpp/emscripten/blob/src/main.cpp" "/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles/game.dir/src/main.cpp.o"
   "/home/vushu/coding/cpp/emscripten/blob/src/utils.cpp" "/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles/game.dir/src/utils.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "Clang")
+set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
+  "/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include"
+  "/usr/include/SDL2"
+  "../include"
+  "../src"
   )
 
 # Targets to which this target links.

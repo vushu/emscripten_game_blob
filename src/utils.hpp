@@ -8,6 +8,6 @@
 #include <SDL2/SDL_image.h>
 
 namespace Utils {
-    SDL_Texture* load_texture(std::string path);
+    SDL_Texture* load_texture(SDL_Renderer* renderer, std::string path);
     SDL_Surface* load_surface(SDL_Surface& screen_surface, std::string path);
 };

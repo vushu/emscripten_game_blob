@@ -1,3 +1,4 @@
+#include <SDL2/SDL_render.h>
 #include "game.hpp"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
@@ -34,8 +35,6 @@ int main()
 
     world = Game::create_world();
     Game::init_world(world);
-    //std::cout << "GAME STARTET!" << std::endl;
-    //emscripten_log(a, "hej");
 
 #ifdef __EMSCRIPTEN__
     // 0 fps means to use requestAnimationFrame; non-0 means to use setTimeout.
@@ -47,7 +46,10 @@ int main()
     }
 #endif
 
-    SDL_FreeSurface(world->screen_surface);
+    // not using surface since we are using renderer which is performing on the GPU
+    //SDL_FreeSurface(world->screen_surface);
+    SDL_DestroyTexture(world->texture);
+    SDL_DestroyRenderer(world->renderer);
     SDL_DestroyWindow(world->window);
     IMG_Quit();
     SDL_Quit();

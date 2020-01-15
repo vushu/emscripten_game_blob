@@ -60,41 +60,41 @@ include CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/game.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/game.cpp.o: ../src/game.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/game.dir/src/game.cpp.o"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/game.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/game.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/game.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/game.cpp
 
 CMakeFiles/game.dir/src/game.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/game.cpp.i"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/game.cpp > CMakeFiles/game.dir/src/game.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/game.cpp > CMakeFiles/game.dir/src/game.cpp.i
 
 CMakeFiles/game.dir/src/game.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/game.cpp.s"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/game.cpp -o CMakeFiles/game.dir/src/game.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/game.cpp -o CMakeFiles/game.dir/src/game.cpp.s
 
 CMakeFiles/game.dir/src/main.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/main.cpp.o: ../src/main.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/game.dir/src/main.cpp.o"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/main.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/main.cpp
 
 CMakeFiles/game.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/main.cpp.i"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/main.cpp > CMakeFiles/game.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/main.cpp > CMakeFiles/game.dir/src/main.cpp.i
 
 CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
 
 CMakeFiles/game.dir/src/utils.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/utils.cpp.o: ../src/utils.cpp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/utils.cpp.o"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp
 
 CMakeFiles/game.dir/src/utils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/utils.cpp.i"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp > CMakeFiles/game.dir/src/utils.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp > CMakeFiles/game.dir/src/utils.cpp.i
 
 CMakeFiles/game.dir/src/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/utils.cpp.s"
-	/home/vushu/coding/repos/emsdk/upstream/emscripten/em++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp -o CMakeFiles/game.dir/src/utils.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp -o CMakeFiles/game.dir/src/utils.cpp.s
 
 # Object files for target game
 game_OBJECTS = \
@@ -105,20 +105,21 @@ game_OBJECTS = \
 # External object files for target game
 game_EXTERNAL_OBJECTS =
 
-game.html: CMakeFiles/game.dir/src/game.cpp.o
-game.html: CMakeFiles/game.dir/src/main.cpp.o
-game.html: CMakeFiles/game.dir/src/utils.cpp.o
-game.html: CMakeFiles/game.dir/build.make
-game.html: CMakeFiles/game.dir/linklibs.rsp
-game.html: CMakeFiles/game.dir/objects1.rsp
-game.html: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable game.html"
+game: CMakeFiles/game.dir/src/game.cpp.o
+game: CMakeFiles/game.dir/src/main.cpp.o
+game: CMakeFiles/game.dir/src/utils.cpp.o
+game: CMakeFiles/game.dir/build.make
+game: /usr/lib/x86_64-linux-gnu/libSDL2.so
+game: /usr/lib/x86_64-linux-gnu/libSDL2main.a
+game: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
+game: CMakeFiles/game.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable game"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "symbolic link resources folder from /home/vushu/coding/cpp/emscripten/blob/resources => /home/vushu/coding/cpp/emscripten/blob/build/resources"
 	/snap/cmake/203/bin/cmake -E create_symlink /home/vushu/coding/cpp/emscripten/blob/resources /home/vushu/coding/cpp/emscripten/blob/build/resources
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/game.dir/build: game.html
+CMakeFiles/game.dir/build: game
 
 .PHONY : CMakeFiles/game.dir/build
 
