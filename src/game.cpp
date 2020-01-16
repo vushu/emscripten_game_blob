@@ -1,15 +1,6 @@
 #include "game.hpp"
+#include "SDL_render.h"
 #include "utils.hpp"
-
-#include <SDL2/SDL.h>
-#include <SDL2/SDL_log.h>
-#include <SDL2/SDL_render.h>
-#include <SDL2/SDL_surface.h>
-#include <SDL2/SDL_image.h>
-
-#include <SDL2/SDL_video.h>
-#include <iostream>
-#include <memory>
 
 //Screen dimension constants
 const int SCREEN_WIDTH = 640;
@@ -17,7 +8,7 @@ const int SCREEN_HEIGHT = 480;
 
 Game::World::World()
 {
-    //std::cout << "World is created " << std::endl;
+    std::cout << "World is created " << std::endl;
 }
 
 Game::World::~World()
@@ -65,7 +56,10 @@ void Game::init_world(std::unique_ptr<World>& game)
             } else {
                 std::cout << "SUCCESS INIT IMG_Load!" << std::endl;
                 // SHOW TU <3
-                game->texture = Utils::load_texture(game->renderer, "resources/TU.png");
+                game->texture = Utils::load_texture(game->renderer, "resources/Background/Blue.png");
+                if (!game->texture) {
+                    std::cout << "Failed to load texture" << std::endl;
+                }
             }
         }
     }
@@ -88,9 +82,27 @@ void Game::update(std::unique_ptr<World>& game)
     // CLEAR SCREEN
     SDL_RenderClear(game->renderer);
 
+    // VIEWPORT
+    auto rect = Utils::create_top_right_rect(Game::SCREEN_WIDTH, Game::SCREEN_HEIGHT);
+    SDL_RenderSetViewport(game->renderer, &rect);
     // ADDING TEXTURE
     SDL_RenderCopy(game->renderer, game->texture, nullptr, &strech_rect);
 
+    auto rect2 = Utils::create_bottom_rect(Game::SCREEN_WIDTH, Game::SCREEN_HEIGHT);
+    SDL_RenderSetViewport(game->renderer, &rect2);
+    // ADDING TEXTURE
+    SDL_RenderCopy(game->renderer, game->texture, nullptr, nullptr);
+
+
     //UPDATE SCREEN
     SDL_RenderPresent(game->renderer);
+}
+
+void Game::close(std::unique_ptr<World>& world)
+{
+    SDL_DestroyTexture(world->texture);
+    SDL_DestroyRenderer(world->renderer);
+    SDL_DestroyWindow(world->window);
+    IMG_Quit();
+    SDL_Quit();
 }

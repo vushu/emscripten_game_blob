@@ -11,6 +11,11 @@
 },
 {
   "directory": "/home/vushu/coding/cpp/emscripten/blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/blob/include -I/home/vushu/coding/cpp/emscripten/blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/texture.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/texture.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/blob/src/texture.cpp"
+},
+{
+  "directory": "/home/vushu/coding/cpp/emscripten/blob/build",
   "command": "/usr/bin/c++   -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/blob/include -I/home/vushu/coding/cpp/emscripten/blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp",
   "file": "/home/vushu/coding/cpp/emscripten/blob/src/utils.cpp"
 }

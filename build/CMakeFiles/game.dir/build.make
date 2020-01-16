@@ -83,9 +83,22 @@ CMakeFiles/game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/main.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/main.cpp -o CMakeFiles/game.dir/src/main.cpp.s
 
+CMakeFiles/game.dir/src/texture.cpp.o: CMakeFiles/game.dir/flags.make
+CMakeFiles/game.dir/src/texture.cpp.o: ../src/texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/texture.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/texture.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/texture.cpp
+
+CMakeFiles/game.dir/src/texture.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/game.dir/src/texture.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/vushu/coding/cpp/emscripten/blob/src/texture.cpp > CMakeFiles/game.dir/src/texture.cpp.i
+
+CMakeFiles/game.dir/src/texture.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/game.dir/src/texture.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/vushu/coding/cpp/emscripten/blob/src/texture.cpp -o CMakeFiles/game.dir/src/texture.cpp.s
+
 CMakeFiles/game.dir/src/utils.cpp.o: CMakeFiles/game.dir/flags.make
 CMakeFiles/game.dir/src/utils.cpp.o: ../src/utils.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/game.dir/src/utils.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/game.dir/src/utils.cpp.o"
 	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/coding/cpp/emscripten/blob/src/utils.cpp
 
 CMakeFiles/game.dir/src/utils.cpp.i: cmake_force
@@ -100,6 +113,7 @@ CMakeFiles/game.dir/src/utils.cpp.s: cmake_force
 game_OBJECTS = \
 "CMakeFiles/game.dir/src/game.cpp.o" \
 "CMakeFiles/game.dir/src/main.cpp.o" \
+"CMakeFiles/game.dir/src/texture.cpp.o" \
 "CMakeFiles/game.dir/src/utils.cpp.o"
 
 # External object files for target game
@@ -107,13 +121,14 @@ game_EXTERNAL_OBJECTS =
 
 game: CMakeFiles/game.dir/src/game.cpp.o
 game: CMakeFiles/game.dir/src/main.cpp.o
+game: CMakeFiles/game.dir/src/texture.cpp.o
 game: CMakeFiles/game.dir/src/utils.cpp.o
 game: CMakeFiles/game.dir/build.make
 game: /usr/lib/x86_64-linux-gnu/libSDL2.so
 game: /usr/lib/x86_64-linux-gnu/libSDL2main.a
 game: /usr/lib/x86_64-linux-gnu/libSDL2_image.so
 game: CMakeFiles/game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable game"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/vushu/coding/cpp/emscripten/blob/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable game"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "symbolic link resources folder from /home/vushu/coding/cpp/emscripten/blob/resources => /home/vushu/coding/cpp/emscripten/blob/build/resources"
 	/snap/cmake/203/bin/cmake -E create_symlink /home/vushu/coding/cpp/emscripten/blob/resources /home/vushu/coding/cpp/emscripten/blob/build/resources
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/game.dir/link.txt --verbose=$(VERBOSE)

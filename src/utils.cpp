@@ -45,3 +45,33 @@ SDL_Texture* Utils::load_texture(SDL_Renderer* renderer, std::string path)
 
     return newTexture;
 }
+
+SDL_Rect Utils::create_top_left_rect(const int width, const int height)
+{
+    SDL_Rect top_left_rect;
+    top_left_rect.x = 0;
+    top_left_rect.y = 0;
+    top_left_rect.w = width / 2;
+    top_left_rect.h = height / 2;
+    return top_left_rect;
+}
+
+SDL_Rect Utils::create_top_right_rect(const int width, const int height)
+{
+    SDL_Rect top_right_rect;
+    top_right_rect.x = width / 2;
+    top_right_rect.y = 0;
+    top_right_rect.w = width / 2;
+    top_right_rect.h = height / 2;
+    return top_right_rect;
+}
+
+SDL_Rect Utils::create_bottom_rect(const int width, const int height)
+{
+    SDL_Rect bottom_rect;
+    bottom_rect.x = 0;
+    bottom_rect.y = height/2;
+    bottom_rect.w = width;
+    bottom_rect.h = height / 2;
+    return bottom_rect;
+}

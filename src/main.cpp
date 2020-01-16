@@ -1,7 +1,8 @@
-#include <SDL2/SDL_render.h>
 #include "game.hpp"
+#include "utils.hpp"
 #include <SDL2/SDL.h>
 #include <SDL2/SDL_image.h>
+#include <SDL2/SDL_render.h>
 
 #include <iostream>
 #include <memory>
@@ -48,12 +49,7 @@ int main()
 
     // not using surface since we are using renderer which is performing on the GPU
     //SDL_FreeSurface(world->screen_surface);
-    SDL_DestroyTexture(world->texture);
-    SDL_DestroyRenderer(world->renderer);
-    SDL_DestroyWindow(world->window);
-    IMG_Quit();
-    SDL_Quit();
-
+    Game::close(world);
 
     return 0;
 }

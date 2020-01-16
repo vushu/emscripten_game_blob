@@ -4,9 +4,24 @@
 CMakeFiles/game.dir/src/game.cpp.o: ../src/game.cpp
 CMakeFiles/game.dir/src/game.cpp.o: ../src/game.hpp
 CMakeFiles/game.dir/src/game.cpp.o: ../src/utils.hpp
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_blendmode.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_config.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_endian.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_error.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_pixels.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_platform.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_rect.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_render.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_rwops.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_stdinc.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_surface.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/SDL_video.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/begin_code.h
+CMakeFiles/game.dir/src/game.cpp.o: /usr/include/SDL2/close_code.h
 
 CMakeFiles/game.dir/src/main.cpp.o: ../src/game.hpp
 CMakeFiles/game.dir/src/main.cpp.o: ../src/main.cpp
+CMakeFiles/game.dir/src/main.cpp.o: ../src/utils.hpp
 CMakeFiles/game.dir/src/main.cpp.o: /home/vushu/coding/repos/emsdk/upstream/emscripten/system/include/SDL/SDL.h
 CMakeFiles/game.dir/src/main.cpp.o: /home/vushu/coding/repos/emsdk/upstream/emscripten/system/include/SDL/SDL_assert.h
 CMakeFiles/game.dir/src/main.cpp.o: /home/vushu/coding/repos/emsdk/upstream/emscripten/system/include/SDL/SDL_atomic.h
@@ -56,7 +71,10 @@ CMakeFiles/game.dir/src/main.cpp.o: /home/vushu/coding/repos/emsdk/upstream/emsc
 CMakeFiles/game.dir/src/main.cpp.o: /home/vushu/coding/repos/emsdk/upstream/emscripten/system/include/emscripten/em_js.h
 CMakeFiles/game.dir/src/main.cpp.o: /home/vushu/coding/repos/emsdk/upstream/emscripten/system/include/emscripten/emscripten.h
 
-CMakeFiles/game.dir/src/utils.cpp.o: ../src/game.hpp
+CMakeFiles/game.dir/src/texture.cpp.o: ../src/texture.cpp
+CMakeFiles/game.dir/src/texture.cpp.o: ../src/texture.hpp
+CMakeFiles/game.dir/src/texture.cpp.o: ../src/utils.hpp
+
 CMakeFiles/game.dir/src/utils.cpp.o: ../src/utils.cpp
 CMakeFiles/game.dir/src/utils.cpp.o: ../src/utils.hpp
 
