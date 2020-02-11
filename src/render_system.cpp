@@ -76,7 +76,7 @@ void Render::draw_tiles_level(SDL_Rect& camera, std::unique_ptr<Texture>& textur
 
 void Render::update(std::uint64_t dt, entt::registry& registry, SDL_Renderer* renderer, SDL_Rect& camera, std::unique_ptr<Texture>& texture, std::vector<std::vector<int>>& tilemap)
 {
-    SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
+    SDL_SetRenderDrawColor(renderer, 0x99, 0xCC, 0xFF, 0xFF);
     SDL_RenderClear(renderer);
 
     draw_tiles_level(camera, texture, tilemap);
