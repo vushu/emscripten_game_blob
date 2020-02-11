@@ -1,5 +1,6 @@
 # Clone and get modules  
 git clone https://github.com/vushu/emscripten_game_blob.git  
+cd emscripten_game_blob  
 git submodule update --init --recursive  
 
 # Must be installed:  
