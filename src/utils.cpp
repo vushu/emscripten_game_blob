@@ -66,6 +66,8 @@ SDL_Rect Utils::create_top_right_rect(const int width, const int height)
     return top_right_rect;
 }
 
+
+
 SDL_Rect Utils::create_bottom_rect(const int width, const int height)
 {
     SDL_Rect bottom_rect;

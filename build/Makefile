@@ -39,10 +39,10 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /snap/cmake/203/bin/cmake
+CMAKE_COMMAND = /snap/cmake/252/bin/cmake
 
 # The command to remove a file.
-RM = /snap/cmake/203/bin/cmake -E remove -f
+RM = /snap/cmake/252/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/vushu/coding/cpp/emscripten/blob/build
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/snap/cmake/203/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/252/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/snap/cmake/203/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/snap/cmake/252/bin/ccmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -123,6 +123,141 @@ game/fast:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/build
 .PHONY : game/fast
 
+src/Collision_corners.o: src/Collision_corners.cpp.o
+
+.PHONY : src/Collision_corners.o
+
+# target to build an object file
+src/Collision_corners.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Collision_corners.cpp.o
+.PHONY : src/Collision_corners.cpp.o
+
+src/Collision_corners.i: src/Collision_corners.cpp.i
+
+.PHONY : src/Collision_corners.i
+
+# target to preprocess a source file
+src/Collision_corners.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Collision_corners.cpp.i
+.PHONY : src/Collision_corners.cpp.i
+
+src/Collision_corners.s: src/Collision_corners.cpp.s
+
+.PHONY : src/Collision_corners.s
+
+# target to generate assembly for a file
+src/Collision_corners.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/Collision_corners.cpp.s
+.PHONY : src/Collision_corners.cpp.s
+
+src/animated_sprite.o: src/animated_sprite.cpp.o
+
+.PHONY : src/animated_sprite.o
+
+# target to build an object file
+src/animated_sprite.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/animated_sprite.cpp.o
+.PHONY : src/animated_sprite.cpp.o
+
+src/animated_sprite.i: src/animated_sprite.cpp.i
+
+.PHONY : src/animated_sprite.i
+
+# target to preprocess a source file
+src/animated_sprite.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/animated_sprite.cpp.i
+.PHONY : src/animated_sprite.cpp.i
+
+src/animated_sprite.s: src/animated_sprite.cpp.s
+
+.PHONY : src/animated_sprite.s
+
+# target to generate assembly for a file
+src/animated_sprite.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/animated_sprite.cpp.s
+.PHONY : src/animated_sprite.cpp.s
+
+src/collision_system.o: src/collision_system.cpp.o
+
+.PHONY : src/collision_system.o
+
+# target to build an object file
+src/collision_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/collision_system.cpp.o
+.PHONY : src/collision_system.cpp.o
+
+src/collision_system.i: src/collision_system.cpp.i
+
+.PHONY : src/collision_system.i
+
+# target to preprocess a source file
+src/collision_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/collision_system.cpp.i
+.PHONY : src/collision_system.cpp.i
+
+src/collision_system.s: src/collision_system.cpp.s
+
+.PHONY : src/collision_system.s
+
+# target to generate assembly for a file
+src/collision_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/collision_system.cpp.s
+.PHONY : src/collision_system.cpp.s
+
+src/consumable_system.o: src/consumable_system.cpp.o
+
+.PHONY : src/consumable_system.o
+
+# target to build an object file
+src/consumable_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/consumable_system.cpp.o
+.PHONY : src/consumable_system.cpp.o
+
+src/consumable_system.i: src/consumable_system.cpp.i
+
+.PHONY : src/consumable_system.i
+
+# target to preprocess a source file
+src/consumable_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/consumable_system.cpp.i
+.PHONY : src/consumable_system.cpp.i
+
+src/consumable_system.s: src/consumable_system.cpp.s
+
+.PHONY : src/consumable_system.s
+
+# target to generate assembly for a file
+src/consumable_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/consumable_system.cpp.s
+.PHONY : src/consumable_system.cpp.s
+
+src/factories.o: src/factories.cpp.o
+
+.PHONY : src/factories.o
+
+# target to build an object file
+src/factories.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/factories.cpp.o
+.PHONY : src/factories.cpp.o
+
+src/factories.i: src/factories.cpp.i
+
+.PHONY : src/factories.i
+
+# target to preprocess a source file
+src/factories.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/factories.cpp.i
+.PHONY : src/factories.cpp.i
+
+src/factories.s: src/factories.cpp.s
+
+.PHONY : src/factories.s
+
+# target to generate assembly for a file
+src/factories.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/factories.cpp.s
+.PHONY : src/factories.cpp.s
+
 src/game.o: src/game.cpp.o
 
 .PHONY : src/game.o
@@ -149,6 +284,60 @@ src/game.s: src/game.cpp.s
 src/game.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/game.cpp.s
 .PHONY : src/game.cpp.s
+
+src/gravity_system.o: src/gravity_system.cpp.o
+
+.PHONY : src/gravity_system.o
+
+# target to build an object file
+src/gravity_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gravity_system.cpp.o
+.PHONY : src/gravity_system.cpp.o
+
+src/gravity_system.i: src/gravity_system.cpp.i
+
+.PHONY : src/gravity_system.i
+
+# target to preprocess a source file
+src/gravity_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gravity_system.cpp.i
+.PHONY : src/gravity_system.cpp.i
+
+src/gravity_system.s: src/gravity_system.cpp.s
+
+.PHONY : src/gravity_system.s
+
+# target to generate assembly for a file
+src/gravity_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/gravity_system.cpp.s
+.PHONY : src/gravity_system.cpp.s
+
+src/items/apple.o: src/items/apple.cpp.o
+
+.PHONY : src/items/apple.o
+
+# target to build an object file
+src/items/apple.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/items/apple.cpp.o
+.PHONY : src/items/apple.cpp.o
+
+src/items/apple.i: src/items/apple.cpp.i
+
+.PHONY : src/items/apple.i
+
+# target to preprocess a source file
+src/items/apple.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/items/apple.cpp.i
+.PHONY : src/items/apple.cpp.i
+
+src/items/apple.s: src/items/apple.cpp.s
+
+.PHONY : src/items/apple.s
+
+# target to generate assembly for a file
+src/items/apple.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/items/apple.cpp.s
+.PHONY : src/items/apple.cpp.s
 
 src/main.o: src/main.cpp.o
 
@@ -177,6 +366,141 @@ src/main.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
+src/move_system.o: src/move_system.cpp.o
+
+.PHONY : src/move_system.o
+
+# target to build an object file
+src/move_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/move_system.cpp.o
+.PHONY : src/move_system.cpp.o
+
+src/move_system.i: src/move_system.cpp.i
+
+.PHONY : src/move_system.i
+
+# target to preprocess a source file
+src/move_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/move_system.cpp.i
+.PHONY : src/move_system.cpp.i
+
+src/move_system.s: src/move_system.cpp.s
+
+.PHONY : src/move_system.s
+
+# target to generate assembly for a file
+src/move_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/move_system.cpp.s
+.PHONY : src/move_system.cpp.s
+
+src/player_system.o: src/player_system.cpp.o
+
+.PHONY : src/player_system.o
+
+# target to build an object file
+src/player_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/player_system.cpp.o
+.PHONY : src/player_system.cpp.o
+
+src/player_system.i: src/player_system.cpp.i
+
+.PHONY : src/player_system.i
+
+# target to preprocess a source file
+src/player_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/player_system.cpp.i
+.PHONY : src/player_system.cpp.i
+
+src/player_system.s: src/player_system.cpp.s
+
+.PHONY : src/player_system.s
+
+# target to generate assembly for a file
+src/player_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/player_system.cpp.s
+.PHONY : src/player_system.cpp.s
+
+src/render_system.o: src/render_system.cpp.o
+
+.PHONY : src/render_system.o
+
+# target to build an object file
+src/render_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/render_system.cpp.o
+.PHONY : src/render_system.cpp.o
+
+src/render_system.i: src/render_system.cpp.i
+
+.PHONY : src/render_system.i
+
+# target to preprocess a source file
+src/render_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/render_system.cpp.i
+.PHONY : src/render_system.cpp.i
+
+src/render_system.s: src/render_system.cpp.s
+
+.PHONY : src/render_system.s
+
+# target to generate assembly for a file
+src/render_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/render_system.cpp.s
+.PHONY : src/render_system.cpp.s
+
+src/text.o: src/text.cpp.o
+
+.PHONY : src/text.o
+
+# target to build an object file
+src/text.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/text.cpp.o
+.PHONY : src/text.cpp.o
+
+src/text.i: src/text.cpp.i
+
+.PHONY : src/text.i
+
+# target to preprocess a source file
+src/text.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/text.cpp.i
+.PHONY : src/text.cpp.i
+
+src/text.s: src/text.cpp.s
+
+.PHONY : src/text.s
+
+# target to generate assembly for a file
+src/text.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/text.cpp.s
+.PHONY : src/text.cpp.s
+
+src/text_system.o: src/text_system.cpp.o
+
+.PHONY : src/text_system.o
+
+# target to build an object file
+src/text_system.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/text_system.cpp.o
+.PHONY : src/text_system.cpp.o
+
+src/text_system.i: src/text_system.cpp.i
+
+.PHONY : src/text_system.i
+
+# target to preprocess a source file
+src/text_system.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/text_system.cpp.i
+.PHONY : src/text_system.cpp.i
+
+src/text_system.s: src/text_system.cpp.s
+
+.PHONY : src/text_system.s
+
+# target to generate assembly for a file
+src/text_system.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/text_system.cpp.s
+.PHONY : src/text_system.cpp.s
+
 src/texture.o: src/texture.cpp.o
 
 .PHONY : src/texture.o
@@ -203,6 +527,60 @@ src/texture.s: src/texture.cpp.s
 src/texture.cpp.s:
 	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/texture.cpp.s
 .PHONY : src/texture.cpp.s
+
+src/tilemap.o: src/tilemap.cpp.o
+
+.PHONY : src/tilemap.o
+
+# target to build an object file
+src/tilemap.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/tilemap.cpp.o
+.PHONY : src/tilemap.cpp.o
+
+src/tilemap.i: src/tilemap.cpp.i
+
+.PHONY : src/tilemap.i
+
+# target to preprocess a source file
+src/tilemap.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/tilemap.cpp.i
+.PHONY : src/tilemap.cpp.i
+
+src/tilemap.s: src/tilemap.cpp.s
+
+.PHONY : src/tilemap.s
+
+# target to generate assembly for a file
+src/tilemap.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/tilemap.cpp.s
+.PHONY : src/tilemap.cpp.s
+
+src/timer.o: src/timer.cpp.o
+
+.PHONY : src/timer.o
+
+# target to build an object file
+src/timer.cpp.o:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/timer.cpp.o
+.PHONY : src/timer.cpp.o
+
+src/timer.i: src/timer.cpp.i
+
+.PHONY : src/timer.i
+
+# target to preprocess a source file
+src/timer.cpp.i:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/timer.cpp.i
+.PHONY : src/timer.cpp.i
+
+src/timer.s: src/timer.cpp.s
+
+.PHONY : src/timer.s
+
+# target to generate assembly for a file
+src/timer.cpp.s:
+	$(MAKE) -f CMakeFiles/game.dir/build.make CMakeFiles/game.dir/src/timer.cpp.s
+.PHONY : src/timer.cpp.s
 
 src/utils.o: src/utils.cpp.o
 
@@ -240,15 +618,57 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... game"
 	@echo "... edit_cache"
+	@echo "... src/Collision_corners.o"
+	@echo "... src/Collision_corners.i"
+	@echo "... src/Collision_corners.s"
+	@echo "... src/animated_sprite.o"
+	@echo "... src/animated_sprite.i"
+	@echo "... src/animated_sprite.s"
+	@echo "... src/collision_system.o"
+	@echo "... src/collision_system.i"
+	@echo "... src/collision_system.s"
+	@echo "... src/consumable_system.o"
+	@echo "... src/consumable_system.i"
+	@echo "... src/consumable_system.s"
+	@echo "... src/factories.o"
+	@echo "... src/factories.i"
+	@echo "... src/factories.s"
 	@echo "... src/game.o"
 	@echo "... src/game.i"
 	@echo "... src/game.s"
+	@echo "... src/gravity_system.o"
+	@echo "... src/gravity_system.i"
+	@echo "... src/gravity_system.s"
+	@echo "... src/items/apple.o"
+	@echo "... src/items/apple.i"
+	@echo "... src/items/apple.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/move_system.o"
+	@echo "... src/move_system.i"
+	@echo "... src/move_system.s"
+	@echo "... src/player_system.o"
+	@echo "... src/player_system.i"
+	@echo "... src/player_system.s"
+	@echo "... src/render_system.o"
+	@echo "... src/render_system.i"
+	@echo "... src/render_system.s"
+	@echo "... src/text.o"
+	@echo "... src/text.i"
+	@echo "... src/text.s"
+	@echo "... src/text_system.o"
+	@echo "... src/text_system.i"
+	@echo "... src/text_system.s"
 	@echo "... src/texture.o"
 	@echo "... src/texture.i"
 	@echo "... src/texture.s"
+	@echo "... src/tilemap.o"
+	@echo "... src/tilemap.i"
+	@echo "... src/tilemap.s"
+	@echo "... src/timer.o"
+	@echo "... src/timer.i"
+	@echo "... src/timer.s"
 	@echo "... src/utils.o"
 	@echo "... src/utils.i"
 	@echo "... src/utils.s"
