@@ -6,5 +6,5 @@ CXX_FLAGS =   -std=gnu++1z
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src 
+CXX_INCLUDES = -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src 
 

@@ -1,92 +1,92 @@
 [
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/Collision_corners.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/Collision_corners.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/Collision_corners.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/Collision_corners.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/Collision_corners.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/Collision_corners.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/animated_sprite.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/animated_sprite.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/collision_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/collision_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/collision_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/collision_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/collision_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/collision_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/consumable_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/consumable_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/consumable_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/consumable_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/consumable_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/consumable_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/factories.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/factories.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/factories.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/factories.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/factories.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/factories.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/game.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/game.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/game.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/game.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/game.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/game.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/gravity_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/gravity_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/gravity_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/gravity_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/gravity_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/gravity_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/items/apple.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/items/apple.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/items/apple.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/items/apple.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/items/apple.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/items/apple.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/main.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/main.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/main.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/main.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/main.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/move_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/move_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/move_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/move_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/move_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/move_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/player_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/player_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/player_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/player_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/player_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/player_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/render_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/render_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/render_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/render_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/text.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/text.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/text.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/text.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/text_system.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/text_system.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/text_system.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/text_system.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text_system.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text_system.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/texture.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/texture.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/texture.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/texture.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/tilemap.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/tilemap.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/tilemap.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/tilemap.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/timer.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/timer.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/timer.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/timer.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.cpp"
 },
 {
-  "directory": "/home/vushu/Desktop/emscripten_game_blob/build",
-  "command": "/usr/bin/c++   -I/home/vushu/Desktop/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/Desktop/emscripten_game_blob/include -I/home/vushu/Desktop/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/Desktop/emscripten_game_blob/src/utils.cpp",
-  "file": "/home/vushu/Desktop/emscripten_game_blob/src/utils.cpp"
+  "directory": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build",
+  "command": "/usr/bin/c++   -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/external/entt/single_include -I/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include -I/usr/include/SDL2 -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/include -I/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src    -std=gnu++1z -o CMakeFiles/game.dir/src/utils.cpp.o -c /home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.cpp",
+  "file": "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.cpp"
 }
 ]

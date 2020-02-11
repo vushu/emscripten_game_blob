@@ -424,23 +424,23 @@ vector
 list
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/Collision_corners.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/Collision_corners.cpp
 Collision_corners.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/Collision_corners.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/Collision_corners.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/Collision_corners.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/Collision_corners.hpp
 SDL2/SDL_rect.h
 -
 math.h
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.cpp
 animated_sprite.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.hpp
 texture.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/texture.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.hpp
 entt/entt.hpp
 -
 iostream
@@ -448,19 +448,19 @@ iostream
 memory
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/collision_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/collision_system.cpp
 collision_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/collision_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/collision_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 tilemap.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 array
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/collision_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/collision_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 map
 -
 entt/entt.hpp
@@ -468,41 +468,41 @@ entt/entt.hpp
 vector
 -
 tilemap.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 Collision_corners.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/Collision_corners.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/Collision_corners.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 animated_sprite.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.hpp
 entt/entt.hpp
 -
 string
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/consumable_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/consumable_system.cpp
 consumable_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/consumable_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/consumable_system.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/consumable_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/consumable_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 entt/entt.hpp
 -
 iostream
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/factories.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/factories.cpp
 factories.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/factories.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/factories.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/factories.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/factories.hpp
 animated_sprite.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 text.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/text.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.hpp
 entt/entt.hpp
 -
 map
@@ -510,47 +510,47 @@ map
 memory
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/game.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/game.cpp
 game.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/game.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/game.hpp
 tilemap.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 utils.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/utils.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.hpp
 SDL2/SDL_render.h
 -
 memory
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/game.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/game.hpp
 animated_sprite.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.hpp
 collision_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/collision_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/collision_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 factories.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/factories.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/factories.hpp
 texture.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/texture.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.hpp
 utils.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/utils.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.hpp
 consumable_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/consumable_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/consumable_system.hpp
 gravity_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/gravity_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/gravity_system.hpp
 items/apple.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/items/apple.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/items/apple.hpp
 move_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/move_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/move_system.hpp
 player_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/player_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/player_system.hpp
 render_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/render_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.hpp
 keyboard.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/keyboard.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/keyboard.hpp
 timer.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/timer.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.hpp
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
@@ -576,27 +576,27 @@ sstream
 stdexcept
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/gravity_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/gravity_system.cpp
 gravity_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/gravity_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/gravity_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 algorithm
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/gravity_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/gravity_system.hpp
 entt/entt.hpp
 -
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/items/apple.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/items/apple.cpp
 apple.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/items/apple.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/items/apple.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/items/apple.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/items/apple.hpp
 ../texture.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/texture.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.hpp
 SDL2/SDL_render.h
 -
 iostream
@@ -604,19 +604,19 @@ iostream
 memory
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/keyboard.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/keyboard.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/main.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/main.cpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 game.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/game.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/game.hpp
 render_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/render_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.hpp
 screen.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/screen.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/screen.hpp
 utils.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/utils.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.hpp
 SDL2/SDL.h
 -
 SDL2/SDL_events.h
@@ -634,33 +634,33 @@ memory
 emscripten/emscripten.h
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/move_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/move_system.cpp
 move_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/move_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/move_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/move_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/move_system.hpp
 cstdint
 -
 entt/entt.hpp
 -
 screen.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/screen.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/screen.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/player_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/player_system.cpp
 player_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/player_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/player_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 screen.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/screen.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/screen.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/player_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/player_system.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 keyboard.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/keyboard.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/keyboard.hpp
 entt/entt.hpp
 -
 iostream
@@ -672,25 +672,25 @@ SDL2/SDL_stdinc.h
 map
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/render_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.cpp
 render_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/render_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.hpp
 tilemap.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 vector
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/render_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/render_system.hpp
 animated_sprite.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/animated_sprite.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/animated_sprite.hpp
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 text.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/text.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.hpp
 texture.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/texture.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.hpp
 tilemap.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 SDL2/SDL_render.h
 -
 entt/entt.hpp
@@ -702,13 +702,13 @@ map
 vector
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/screen.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/screen.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/text.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.cpp
 text.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/text.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/text.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text.hpp
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
@@ -720,25 +720,25 @@ iostream
 string
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/text_system.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text_system.cpp
 text_system.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/text_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text_system.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/text_system.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/text_system.hpp
 SDL2/SDL.h
 -
 components.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/components.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/components.hpp
 entt/entt.hpp
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/texture.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.cpp
 texture.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/texture.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.hpp
 iostream
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/texture.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/texture.hpp
 SDL2/SDL.h
 -
 SDL2/SDL_image.h
@@ -748,9 +748,9 @@ SDL2/SDL_render.h
 string
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.cpp
 tilemap.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 cstdlib
 -
 iostream
@@ -760,7 +760,7 @@ iterator
 math.h
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/tilemap.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/tilemap.hpp
 SDL2/SDL_rect.h
 -
 cstdlib
@@ -768,19 +768,19 @@ cstdlib
 vector
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/timer.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.cpp
 timer.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/timer.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/timer.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.hpp
 SDL2/SDL.h
 -
 
-/home/vushu/Desktop/emscripten_game_blob/src/utils.cpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.cpp
 utils.hpp
-/home/vushu/Desktop/emscripten_game_blob/src/utils.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.hpp
 
-/home/vushu/Desktop/emscripten_game_blob/src/utils.hpp
+/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.hpp
 SDL2/SDL.h
 -
 SDL2/SDL_render.h

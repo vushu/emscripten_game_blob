@@ -1,4 +1,4 @@
-# Install script for directory: /home/vushu/Desktop/emscripten_game_blob
+# Install script for directory: /home/vushu/coding/cpp/emscripten/emscripten_game_blob
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/vushu/Desktop/emscripten_game_blob/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
