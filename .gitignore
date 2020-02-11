@@ -1,3 +1,5 @@
 .clangd/
 .vscode/
+.clangd
+.vscode
 
