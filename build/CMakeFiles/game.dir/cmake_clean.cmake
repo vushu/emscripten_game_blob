@@ -17,7 +17,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/game.dir/src/tilemap.cpp.o"
   "CMakeFiles/game.dir/src/timer.cpp.o"
   "CMakeFiles/game.dir/src/utils.cpp.o"
-  "game"
+  "game.html"
   "game.pdb"
 )
 

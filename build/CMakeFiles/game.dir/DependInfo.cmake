@@ -23,15 +23,11 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/timer.cpp" "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build/CMakeFiles/game.dir/src/timer.cpp.o"
   "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/src/utils.cpp" "/home/vushu/coding/cpp/emscripten/emscripten_game_blob/build/CMakeFiles/game.dir/src/utils.cpp.o"
   )
-set(CMAKE_CXX_COMPILER_ID "GNU")
+set(CMAKE_CXX_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../external/entt/single_include"
-  "/home/vushu/coding/repos/emsdk/upstream/emscripten/system/include"
-  "/usr/include/SDL2"
-  "../include"
-  "../src"
   )
 
 # Targets to which this target links.

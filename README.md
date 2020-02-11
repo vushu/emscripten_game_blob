@@ -4,13 +4,19 @@ cd emscripten_game_blob
 git submodule update --init --recursive  
 
 # Must be installed:  
-SDL2 must  
+SDL2  
 SDL2_image  
+Emscripten SDK (to compile to wasm)  
+Python (To run a httpserver)  
 
 # run on linux  
-./run.sh  
+``` ./run.sh  ```
 
 # run on browser  
-./install.sh && rundev.sh  
+``` ./install.sh && rundev.sh  ```
+
+### In your browser goto:  
+``` http://localhost:8000/build/gameSdl2.html  ```
+
 
 
